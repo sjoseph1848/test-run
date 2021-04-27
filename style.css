@@ -180,7 +180,6 @@ section#showcase {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  overflow: auto;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -487,5 +486,7 @@ section#about-me {
 
   section#showcase {
     background-position: 80%;
+    max-height: 100vh;
+    overflow: auto;
   }
 }
