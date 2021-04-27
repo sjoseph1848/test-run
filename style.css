@@ -486,9 +486,5 @@ section#about-me {
 
   section#showcase {
     background-position: 80%;
-    /* max-height: 100vh;
-    overflow: auto; */
-    background-size: contain;
-    background-repeat: no-repeat;
   }
 }
