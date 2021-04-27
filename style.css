@@ -173,10 +173,10 @@ ul.header__main-nav--links li a:active::after {
   transform: scaleX(1);
 }
 
-  /*            Showcase / Hero Section */
+/*            Showcase / Hero Section */
 section#showcase {
   height: 100vh;
-  background-image: url('img/full-bg-07.jpg');
+  background-image: url('https://dl1o3dt9eiac3.cloudfront.net/maria_mike-32.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -185,7 +185,6 @@ section#showcase {
   justify-content: flex-start;
   align-items: center;
 }
-
 
 div.showcase__content {
   background-color: var(--secondary-color-m);
@@ -197,7 +196,6 @@ div.showcase__content {
   justify-content: space-between;
 
   animation: hero 2s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-
 }
 
 @keyframes hero {
@@ -217,7 +215,7 @@ div.showcase__content {
 }
 
 .showcase__content--para {
-  font-family: "Indie Flower", cursive;
+  font-family: 'Indie Flower', cursive;
   font-size: calc(1.5rem + 1vw);
   color: white;
 }
@@ -253,14 +251,11 @@ div.showcase__content {
 
 .showcase__content--link:hover::after,
 .showcase__content--link:active::after {
-transform: scaleX(1);
-transform-origin: left;
+  transform: scaleX(1);
+  transform-origin: left;
 }
 
-
-
 /* Media Query */
-
 
 @media screen and (max-width: 900px) {
   /* Showcase / Hero Section  */
@@ -268,7 +263,6 @@ transform-origin: left;
     background-position: 100%;
     align-items: flex-end;
   }
-
 }
 
 @media screen and (max-width: 610px) {
@@ -369,4 +363,3 @@ transform-origin: left;
     background-position: 80%;
   }
 }
-
