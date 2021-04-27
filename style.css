@@ -489,5 +489,6 @@ section#about-me {
     /* max-height: 100vh;
     overflow: auto; */
     background-size: contain;
+    background-repeat: no-repeat;
   }
 }
