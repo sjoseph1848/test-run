@@ -385,6 +385,7 @@ section#about-me {
 @media screen and (max-width: 900px) {
   /* Showcase / Hero Section  */
   section#showcase {
+    height: 85vh;
     background-position: 100%;
     align-items: flex-end;
   }
@@ -485,6 +486,7 @@ section#about-me {
   }
 
   section#showcase {
+    background-size: 1500px 100vh;
     background-position: 80%;
   }
 }
